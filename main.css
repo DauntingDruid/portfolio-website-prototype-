@@ -89,7 +89,25 @@ p {
 
 /*-------- Landing --------*/
 
+.landing {
+    height: 100vh;
+    position: relative;
+}
 
+.landingWrapper{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+}
+
+.landingL {
+    margin-top: 4em;
+}
+.scroll{
+    position: absolute;
+    bottom: 180px;
+    
+}
 
 
 /*-------- Skills --------*/
