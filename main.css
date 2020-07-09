@@ -105,10 +105,11 @@ p {
 }
 .scroll{
     position: absolute;
-    bottom: 180px;
-    left: 0;
-    right: 0;
-    margin: 180;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 60px;
+  
 }
 
 
@@ -132,14 +133,11 @@ p {
 
 
 
-
 /*-------- Work 02 --------*/
 
 
 
-
 /*-------- Work 01 and 02 --------*/
-
 
 
 
@@ -150,7 +148,7 @@ p {
 
 
 
-
+ 
 
 
 
