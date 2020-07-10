@@ -136,8 +136,35 @@ ul{
 
 /*-------- Work 01 --------*/
 
+.work {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+ 
+.work > .workText {     /*-- The > selector is used to target classes individualy --*/
+    position: absolute;
+    top: 85;
+}
+.work > .workText > .underline {
+    display: block;
+    background: #02FBFF;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
 
+.work > .workImg {
+    width: 85%;
+    float: right;
+    -webkit-box-shadow: 18px 20px 18px 0px rgba(2,251,255,0.2);
+-moz-box-shadow: 18px 20px 18px 0px rgba(2,251,255,0.2);
+box-shadow: 18px 20px 18px 0px rgba(2,251,255,0.2);
+}
 
+.work ul li {
+    margin-top: 20px;
+}
 /*-------- Work 02 --------*/
 
 
